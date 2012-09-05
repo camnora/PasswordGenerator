@@ -7,8 +7,9 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class myPanel extends JPanel
 {
-	public void paint(Graphics g)
-	{
+	String password;
+	
+	public void paint(Graphics g) {
 		super.paint(g);
 		setBackground(Color.BLACK);
 	}
